@@ -15,7 +15,7 @@ The following types of skin cancer diseases are present in the dataset : actinic
 ## Model Building
 The entire code is divided into three parts
 - Model 1 : A baseline model which will try to learn from the images present in the dataset.
-- Model 2 : To prevent overfitting of the model, dropdouts are added after each convolution+pooling layer
+- Model 2 : To prevent overfitting of the model, dropouts are added after each convolution+pooling layer
 - Model 3 : Due to limited number of training images, the model doesn't generalize well. Used the Augmentor library to create transformations of train dataset with each class containing 500 images.
 
 ## Observations
